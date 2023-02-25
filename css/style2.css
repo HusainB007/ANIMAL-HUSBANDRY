@@ -1,0 +1,132 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 110px;
+  } */
+  header {
+    background-image: url("../farmer5.jpg");
+    background-size: cover;
+    height: 400px; /* or whatever height you want */
+    text-align: center;
+  color:black;
+  padding-top: 0.8%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  }
+  
+  
+  header img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  /* nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  nav ul li{
+    margin-right: 20%;
+  }
+  nav ul li:hover {
+    background-color:rgba(0,0,0,0.2);
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+   */
+  /* nav a:hover {
+    background-color: #fff;
+    color: #2c3e50;
+  } */
+  nav ul li{
+    margin-right: 5%;
+  }
+  nav a:hover {
+    background-color: #fff;
+    padding: 20px;
+    margin: -10px;
+  
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 40px 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poultry Farming | Sector-wise Animal Husbandry</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/style3.css">
+	<link rel="stylesheet" href="css/style.css">	
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+   <!-- Icon Font Stylesheet -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>पशुपालन [Animal Husbandry]</h1>
+	</header>
+	<nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+		<ul >
+	  <div class="navbar-nav mx-auto py-0 ">
+		<li><a href="/index.html" onclick="goToIndex()" class="nav-item nav-link">Home</a></li>
+		<!-- <li><a href="dairy.html"></a></li>  -->
+		
+	  <li> <a href="dairy.html" class="nav-item nav-link">दुग्ध उत्पादन [DAIRY]</a> </li>  
+	  <li><a href="poultry.html" class="nav-item nav-link">मुर्गीपालन [POULTRY]</a></li>
+	  <li><a href="fisheries.html" class="nav-item nav-link">मत्स्यपालन [FISHERIES]</a></li>
+	  <li><a href="livestock.html"  class="nav-item nav-link">पशुपालन [LIVESTOCK]</a></li>
+	  <li><a href="about.html" onclick="goToAbout()"class="nav-item nav-link">ABOUT US</a></li>
+	  </div>
+		   
+		</ul>
+	</nav>
+	<main>
+		<h1>Poultry Farming</h1>
+		<p>Poultry farming involves the breeding and raising of chickens, ducks, and other birds for meat and eggs.</p>
+		<p>To be successful in poultry farming, you will need:</p>
+		<ul>
+			<li>Chickens or ducks</li>
+			<li>Feed and water</li>
+			<li>Shelter (such as a chicken coop or duck house)</li>
+			<li>Equipment (such as egg incubators and brooders)</li>
+		</ul>
+
+
+		<h2>Select Your Sector</h2>
+		<p>Choose the sector of poultry farming that you are interested in:</p>
+		<select id="sector" class="box">
+			<option value="">Select a sector...</option>
+			<option value="chicken_breeding">Chicken Breeding</option>
+			<option value="egg_production">Egg Production</option>
+			<option value="meat_production">Meat Production</option>
+		</select>
+
+		<div id="answer"></div>
+		<form id="requirements" style="display: none;">
+			<h2>Additional Requirements</h2>
+			<p>Please select any additional requirements:</p>
+			<input type="checkbox" id="feed" name="feed" value="feed">
+			<label for="feed">Feed</label><br>
+			<input type="checkbox" id="water" name="water" value="water">
+			<label for="water">Water</label><br>
+			<input type="checkbox" id="shelter" name="shelter" value="shelter">
+			<label for="shelter">Shelter</label><br>
+			<input type="checkbox" id="lighting" name="lighting" value="lighting">
+			<label for="lighting">Lighting</label><br>
+			<input type="checkbox" id="ventilation" name="ventilation" value="ventilation">
+			<label for="ventilation">Ventilation</label><br><br>
+			<button type="submit" value="Submit" class="button button2">SUBMIT</button>
+		</form>
+        <script src="js/poultry.js"></script>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Animal Husbandry</p>
+	</footer>
+
+</body>
+</html>
